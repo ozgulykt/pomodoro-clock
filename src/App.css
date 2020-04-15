@@ -1,0 +1,44 @@
+body {
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background: rgb(3, 46, 46);
+}
+
+.App {
+  background: rgb(3, 46, 46);
+  color: white;
+}
+
+#break-increment, #break-decrement, #session-increment, 
+#session-decrement, #play, #pause, #refresh {
+  margin: 5px;
+  padding: 5px;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  border: none;
+  background: rgb(3, 46, 46);
+}
+#break-increment:active, #break-decrement:active, #session-increment:active, 
+#session-decrement:active, #play:active, #pause:active, #refresh:active {
+  opacity: 0.8;
+}
+.row {
+  align-items: center;
+  justify-content: center;
+}
+#time-left {
+  width: 120px;
+  height: 150px;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 20%;
+}
+.title, .break {
+  margin: 20px;
+}
+.timer {
+  font-size: 40px;
+}
